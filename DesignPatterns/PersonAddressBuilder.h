@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include "PersonBuilder.h"
+#include "Person.h"
 
 class PersonAddressBuilder : public PersonBuilder
 {
