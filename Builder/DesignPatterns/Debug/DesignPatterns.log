@@ -1,0 +1,57 @@
+﻿  Facets.cpp
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonBuilder.h(10,10): error C2079: 'PersonBuilder::p' uses undefined class 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonBuilder.h(21,18): error C2440: 'initializing': cannot convert from 'int' to 'Person &'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonBuilder.h(21,18): error C2439: 'PersonBuilder::person': member could not be initialized
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonBuilder.h(13): message : see declaration of 'PersonBuilder::person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonBuilder.h(24,2): error C2027: use of undefined type 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonBuilder.h(6): message : see declaration of 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonAddressBuilder.h(18,1): error C2027: use of undefined type 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonBuilder.h(6): message : see declaration of 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonAddressBuilder.h(24,1): error C2027: use of undefined type 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonBuilder.h(6): message : see declaration of 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonAddressBuilder.h(30,1): error C2027: use of undefined type 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonBuilder.h(6): message : see declaration of 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonJobBuilder.h(20,1): error C2027: use of undefined type 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonJobBuilder.h(6): message : see declaration of 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonJobBuilder.h(26,1): error C2027: use of undefined type 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonJobBuilder.h(6): message : see declaration of 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonJobBuilder.h(32,1): error C2027: use of undefined type 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonJobBuilder.h(6): message : see declaration of 'Person'
+  Person.cpp
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\Facets.cpp(17,56): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonBuilder.h(10,10): error C2079: 'PersonBuilder::p' uses undefined class 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonBuilder.h(21,18): error C2440: 'initializing': cannot convert from 'int' to 'Person &'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonBuilder.h(21,18): error C2439: 'PersonBuilder::person': member could not be initialized
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonBuilder.h(13): message : see declaration of 'PersonBuilder::person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonBuilder.h(24,2): error C2027: use of undefined type 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonBuilder.h(6): message : see declaration of 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonAddressBuilder.h(18,1): error C2027: use of undefined type 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonBuilder.h(6): message : see declaration of 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonAddressBuilder.h(24,1): error C2027: use of undefined type 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonBuilder.h(6): message : see declaration of 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonAddressBuilder.h(30,1): error C2027: use of undefined type 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonBuilder.h(6): message : see declaration of 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonJobBuilder.h(20,1): error C2027: use of undefined type 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonJobBuilder.h(6): message : see declaration of 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonJobBuilder.h(26,1): error C2027: use of undefined type 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonJobBuilder.h(6): message : see declaration of 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonJobBuilder.h(32,1): error C2027: use of undefined type 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonJobBuilder.h(6): message : see declaration of 'Person'
+  PersonBuilder.cpp
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\Person.h(50,4): error C2676: binary '<<': 'std::ostream' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonAddressBuilder.h(7,1): error C2504: 'PersonBuilder': base class undefined
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonAddressBuilder.h(11,3): error C2061: syntax error: identifier 'Person'
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonAddressBuilder.h(12,20): error C2065: 'person': undeclared identifier
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonAddressBuilder.h(12,5): error C2614: 'PersonAddressBuilder': illegal member initialization: 'PersonBuilder' is not a base or member
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonAddressBuilder.h(18,3): error C2065: 'person': undeclared identifier
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonAddressBuilder.h(24,3): error C2065: 'person': undeclared identifier
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonAddressBuilder.h(30,3): error C2065: 'person': undeclared identifier
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonJobBuilder.h(9,1): error C2504: 'PersonBuilder': base class undefined
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonJobBuilder.h(14,5): error C2614: 'PersonJobBuilder': illegal member initialization: 'PersonBuilder' is not a base or member
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonJobBuilder.h(20,3): error C2065: 'person': undeclared identifier
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonJobBuilder.h(26,3): error C2065: 'person': undeclared identifier
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonJobBuilder.h(32,3): error C2065: 'person': undeclared identifier
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\Person.h(50,4): error C2676: binary '<<': 'std::ostream' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonBuilder.cpp(8,38): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'PersonAddressBuilder'
+  Generating Code...
+C:\Users\strah\source\repos\DesignPatterns\DesignPatterns\PersonBuilder.cpp(8,38): message : No constructor could take the source type, or constructor overload resolution was ambiguous

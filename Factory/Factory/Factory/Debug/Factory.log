@@ -1,0 +1,3 @@
+﻿  FactoryMethod.cpp
+C:\Users\strah\source\repos\DesignPatterns\Factory\Factory\Factory\FactoryMethod.cpp(41,36): warning C4305: 'argument': truncation from 'double' to 'const float'
+  Factory.vcxproj -> C:\Users\strah\source\repos\DesignPatterns\Factory\Factory\Debug\Factory.exe
