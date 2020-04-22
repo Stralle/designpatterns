@@ -123,7 +123,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AbstractFactory.cpp" />
     <ClCompile Include="FactoryMethod.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CoffeeFactory.h" />
+    <ClInclude Include="DrinkFactory.h" />
+    <ClInclude Include="HotDrink.h" />
+    <ClInclude Include="HotDrinkFactory.h" />
+    <ClInclude Include="TeaFactory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

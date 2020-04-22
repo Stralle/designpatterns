@@ -2,5 +2,13 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="FactoryMethod.cpp" />
+    <ClCompile Include="AbstractFactory.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HotDrink.h" />
+    <ClInclude Include="HotDrinkFactory.h" />
+    <ClInclude Include="TeaFactory.h" />
+    <ClInclude Include="DrinkFactory.h" />
+    <ClInclude Include="CoffeeFactory.h" />
   </ItemGroup>
 </Project>

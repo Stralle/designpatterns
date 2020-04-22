@@ -9,38 +9,39 @@ class Point
 	{
 	}
 
+	class PointFactory // Internal factory, because does it really make sense to have a pointfactory if we don't have point?
+	{
+	public:
+		static Point NewCartesian(const float x, const float y)
+		{
+			return { x, y }; // Returns initializer list that autocompletes the creation of point object.
+		}
+
+		static Point NewPolar(const float r, const float theta)
+		{
+			return { r * cos(theta), r * sin(theta) }; // Returns initializer list that autocompletes the creation of point object.
+		}
+	};
+
 public:
 	float x, y;
-
-	static Point NewCartesian(const float x, const float y)
-	{
-		return { x, y }; // Returns initializer list that autocompletes the creation of point object.
-	}
-
-	static Point NewPolar(const float r, const float theta)
-	{
-		return { r*cos(theta), r*sin(theta) }; // Returns initializer list that autocompletes the creation of point object.
-	}
 
 	friend std::ostream& operator<<(std::ostream& os, const Point& obj)
 	{
 		return os
 			<< "x: " << obj.x 
-			<< " " <<
+			<< " "
 			<< "y: " << obj.y;
 	}
 
+	static PointFactory Factory;
 };
 
-int main()
+// Rename this method to main to test this out.
+int mainFactoryMethod()
 {
-	// Point p{1, 2} ;
-
-	auto cartesianPoint = Point::NewCartesian(1, 2);
-	std::cout << cartesianPoint << std::endl;
-
-	auto polarPoint = Point::NewPolar(5, M_PI_4);
-	std::cout << polarPoint << std::endl;
+	auto p = Point::Factory.NewCartesian(1, 2);
+	std::cout << p << std::endl;
 
 	//getchar();
 	return 0;
