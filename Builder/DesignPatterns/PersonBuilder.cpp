@@ -2,7 +2,6 @@
 #include "PersonJobBuilder.h"
 #include "PersonAddressBuilder.h"
 
-
 inline PersonAddressBuilder PersonBuilder::lives()
 {
 	return PersonAddressBuilder{ person };

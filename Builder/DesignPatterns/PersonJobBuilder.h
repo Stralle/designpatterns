@@ -1,9 +1,5 @@
 #pragma once
-#include <string>
 #include "PersonBuilder.h"
-
-class PersonBuilder;
-class Person;
 
 class PersonJobBuilder : public PersonBuilder
 {
