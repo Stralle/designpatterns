@@ -1,0 +1,5 @@
+﻿  WrappingDecorator.cpp
+C:\Users\strah\source\repos\DesignPatterns\StructuralPatterns\Decorator\Decorator\Decorator\WrappingDecorator.cpp(128,7): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+C:\Users\strah\source\repos\DesignPatterns\StructuralPatterns\Decorator\Decorator\Decorator\WrappingDecorator.cpp(183): message : see reference to function template instantiation 'TransparentShape2<Square>::TransparentShape2<int>(const uint8_t,int)' being compiled
+C:\Users\strah\source\repos\DesignPatterns\StructuralPatterns\Decorator\Decorator\Decorator\WrappingDecorator.cpp(183): message : see reference to function template instantiation 'TransparentShape2<Square>::TransparentShape2<int>(const uint8_t,int)' being compiled
+  Decorator.vcxproj -> C:\Users\strah\source\repos\DesignPatterns\StructuralPatterns\Decorator\Decorator\Debug\Decorator.exe
