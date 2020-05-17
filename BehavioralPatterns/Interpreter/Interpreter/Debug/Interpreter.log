@@ -1,0 +1,6 @@
+﻿  Interpreter.cpp
+C:\Users\strah\source\repos\DesignPatterns\BehavioralPatterns\Interpreter\Interpreter\Interpreter.cpp(73,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\strah\source\repos\DesignPatterns\BehavioralPatterns\Interpreter\Interpreter\Interpreter.cpp(92,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\strah\source\repos\DesignPatterns\BehavioralPatterns\Interpreter\Interpreter\Interpreter.cpp(116,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\strah\source\repos\DesignPatterns\BehavioralPatterns\Interpreter\Interpreter\Interpreter.cpp(145,13): warning C4018: '<': signed/unsigned mismatch
+  Interpreter.vcxproj -> C:\Users\strah\source\repos\DesignPatterns\BehavioralPatterns\Interpreter\Debug\Interpreter.exe
