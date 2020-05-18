@@ -1,0 +1,3 @@
+﻿  Memento.cpp
+C:\Users\strah\source\repos\DesignPatterns\BehavioralPatterns\Memento\Memento\Memento.cpp(104,19): warning C4018: '<': signed/unsigned mismatch
+  Memento.vcxproj -> C:\Users\strah\source\repos\DesignPatterns\BehavioralPatterns\Memento\Debug\Memento.exe
