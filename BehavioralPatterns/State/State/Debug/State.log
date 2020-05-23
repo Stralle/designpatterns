@@ -1,0 +1,3 @@
+﻿  BoostMSM.cpp
+C:\Users\strah\source\repos\libs\boost_1_73_0\boost\bind.hpp(41): message : The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+  State.vcxproj -> C:\Users\strah\source\repos\DesignPatterns\BehavioralPatterns\State\Debug\State.exe
