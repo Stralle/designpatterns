@@ -1,0 +1,3 @@
+﻿  TemplateMethod.cpp
+C:\Users\strah\source\repos\DesignPatterns\BehavioralPatterns\Template\Template\TemplateMethod.cpp(78,11): warning C4309: 'initializing': truncation of constant value
+  Template.vcxproj -> C:\Users\strah\source\repos\DesignPatterns\BehavioralPatterns\Template\Debug\Template.exe
